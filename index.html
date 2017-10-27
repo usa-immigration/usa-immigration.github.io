@@ -1,46 +1,84 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Immigration Issues</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
+ <html class="issues">
+ <title>Immigration Issues</title>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+ <meta name="description" content="Immigration Issues">
+ <meta name="keywords" content="Immigration, policy,issues">
+<link href="https://fonts.googleapis.com/css?family=Concert+One|Poppins" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="styles.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ </head>
+ <body id="home">
+ 
+ 
+ <header id="header">
+ 
   
-  <body>
-    <header>
-    <h1 style="width: 90%; color: white; margin-top:15px; margin-left:10px;"> Immigration Issues </h1>
-    
-      <div class="nav-menu">
-        <ul>
-          <li> <a href="index.html"> Home </a> </li>
-             <li> <a href="index.html"> dropdown2 </a>  </li>
-                <li> <a href="index.html"> dropdown3</a>  </li>
-                   <li> <a href="about.html"> About Us </a>  </li>
-        </ul>
-          
-      </div>
-    
-    
-    </header>
-    
+    <h1  id="site-name" style="margin-top:10px; font-family: 'Poppins', sans-serif; margin-left:3%; color:white;"> Immigration Issues   </h1> 
+	
    
-    <br> <br> <br>
-   <img id="test" src="https://gsg.usc.edu/wp-content/uploads/sites/6/2017/09/daca.jpg">
-    
-    
-    
-    
-    
-     <script> 
- //$("#test").fadeOut(3000);
+  <div class="nav-menu"> 
+ <ul>
+ <li> <a href="index.html"> Home</a> </li>
+  <li> <a href="index.html"> stuff1</a> </li>
+    <li> <a href="index.html"> stuff2</a> </li>
+ <li> <a href="index.html"> stuff3</a> </li>
+ 
 
-       
-    /*   funtion change(){
-         document.getElementById
-         
-       }
-       */
-    </script>
+ <li> <a href="#"> About  </a>  <span style="font-size:9px; position:absolute; margin-top:15px;"> &darr; </span>
+
+   <ul class="sub-menu"> 
+  <li> <a href="aden.html"> Aden Gonzales</a> </li>
+	  	         
+ 	  <li> <a href="jerry.html"> Jerry Noel </a> </li>
+	 
+	     </ul>
+
+	</li>
+	
+ </ul>
+ </div>
+ 
+ 
+   </header>
+   
+ 
+  
+	
     
-  </body>
-</html>
+	
+ <p id="p" style="color:green; margin-top:100px;"> WIDTH: </p>
+
+ 
+ <footer>
+  
+ 
+  <div class="by">
+    
+  </div>
+   
+ </footer>
+ 
+ 
+   
+  <script>
+ 
+function change(){
+document.getElementById("p").innerHTML = window.innerWidth;
+ 
+ 
+   
+return window.innerWidth;
+
+ }
+ 
+  
+  setInterval(change, 10);
+
+ </script>
+ 
+ 
+ </body>
+ </html>
