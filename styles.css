@@ -188,10 +188,14 @@ footer {
 				 
 	 
 		 	@media only screen and (max-width: 1700px) {
-      #cards1, #cards2, #cards3  {
+      #cards1, #cards2, #cards3, {
         height:440px; 
         width:440px;
   }
+        
+        img{
+
+}
 }
 
 	 
@@ -233,24 +237,7 @@ footer {
   }
 }
 
-	  	@media only screen and (max-width: 1150px) {
-      #cards1, #cards2, #cards3  {
-        width:140px; 
-//width:420px;
-  }
-}
-
-	  	@media only screen and (max-width: 1050px) {
-      #cards1, #cards2, #cards3  {
-        width:90px; 
-       // width:420px;
-  }
-}
-
-
-
 	 
-    
 
 			@media only screen and (max-width: 1295px) {
       .nav-menu  {
