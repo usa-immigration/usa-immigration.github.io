@@ -8,9 +8,12 @@
  <meta name="keywords" content="Immigration, policy,issues">
 <link href="https://fonts.googleapis.com/css?family=Concert+One|Poppins" rel="stylesheet">
  <link rel="stylesheet" type="text/css" href="styles.css">
+   
+   
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
    <script src="script.js"> </script>
- </head>
+   <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+  </head>
  <body id="home">
  
   <header id="header">  </header>
@@ -29,7 +32,58 @@
 	
  <p id="p" style="color:green; margin-top:100px;"> WIDTH: </p>
 
- 
+  <!--
+   
+   <div class="card-holder">  
+        <div class="card card-left">
+          <div class="card-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Aden_Colony_dependencies.png/250px-Aden_Colony_dependencies.png">
+            <span class="card-title">Drug Abuse</span>
+          </div>          
+          <div class="card-content">
+            <p>Dante's website addresses drug abuse, offers relevant advice,
+            and tells recovery stories.</p>
+          </div>
+          <div class="card-action">
+            <a href="http://doyouneedhelphereyougo.com/">Dante's Website</a>
+          </div>
+        </div>
+   
+        <div class="card card-right">
+          <div class="card-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Aden_Colony_dependencies.png/250px-Aden_Colony_dependencies.png">
+            <span class="card-title">Drug Abuse</span>
+          </div>
+          <div class="card-content">
+            <p>Dante's website addresses drug abuse, offers relevant advice,
+            and tells recovery stories.</p>
+          </div>
+          <div class="card-action">
+            <a href="http://doyouneedhelphereyougo.com/">Dante's Website</a>
+          </div>
+        </div>
+  </div>
+   -->
+   <div style=" max-width:1000px;  height:400px; width:100%; " id="cardsHolder">
+     
+   <div style=" box-shadow:1px 2px 10px #333; height:400px; width:300px; margin-left: 25%;" id="cards1"> 
+     <img src="https://cdn.glitch.com/f8999830-3615-4979-987a-740d649f07ee%2Fjerryaden.jpg?1509908703869" height="200px" width="300px"/>  
+     </div>
+   
+   
+      <div style="  box-shadow:1px 2px 10px #333; height:400px; width:300px; margin-left: 75%; margin-top:-405px" id="cards2">
+   <div style=" "> 
+     <img src="https://cdn.glitch.com/f8999830-3615-4979-987a-740d649f07ee%2Fjerryaden.jpg?1509908703869" height="200px" width="300px"/>  
+     </div>
+   </div>
+   
+      <div style="  box-shadow:1px 2px 10px #333; height:400px; width:300px; margin-left:100%; margin-top:-400px" id="cards3">
+   <div style=" "> 
+     <img src="https://cdn.glitch.com/f8999830-3615-4979-987a-740d649f07ee%2Fjerryaden.jpg?1509908703869" height="200px" width="300px"/>  
+     </div>
+   </div>
+     
+      </div>
    
    
    <footer> </footer>
@@ -37,7 +91,7 @@
   <script>
  
 function change(){
-document.getElementById("p").innerHTML = window.innerWidth;
+document.getElementById("p").innerHTML = window.innerWidth + " " + window.innerHeight;
 
 return window.innerWidth;
 
