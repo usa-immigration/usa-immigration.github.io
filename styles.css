@@ -412,8 +412,8 @@ background-repeat:no-repeat;
    background-image:url("https://cdn.glitch.com/f8999830-3615-4979-987a-740d649f07ee%2F23758474_10155836582859085_165659586_n.jpg?1511120771724");
      //   background-size: 1000px 1000px;
           background-repeat: no-repeat;
-    background-position: 0px 0px; 
-margin-left:50%;
+    background-position: 150px 0px; 
+margin: auto auto auto auto;
    
 
 }
