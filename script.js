@@ -33,7 +33,7 @@ $("#header").addClass("testings");
   $("footer").load("footer.html"); 
 
 });
- 
+
 
 
 var MyNumber = 2*10 
