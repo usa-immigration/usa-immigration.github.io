@@ -393,9 +393,15 @@ background-repeat:no-repeat;
 }
 
 
- 
+#daniel{
+  background-image:url("https://photos.app.goo.gl/5mW3KMlPXSW6rXlB2");
+        background-size: 300px 350px;
+          background-repeat: no-repeat;
+    background-position: 0px 0px; 
+
+}
 			
-		#jerry{
+#jerry{
   background-image:url("https://cdn.glitch.com/f8999830-3615-4979-987a-740d649f07ee%2Fjerry.jpg?1511118224500");
         background-size: 300px 350px;
           background-repeat: no-repeat;
