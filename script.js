@@ -32,6 +32,7 @@ $("#header").addClass("testings");
  $("#header").load("header.html"); 
   $("footer").load("footer.html"); 
 
+  $(".slideShow").css("width", "+=5px");
 });
 
 
