@@ -209,8 +209,9 @@ footer {
 		
  .slideShow{
 	position:relative;
-	 margin-top:50px;
- 	 
+	 margin-top:65px;
+ 	 			transform:translateY(-35px);
+
  }
  
   .placeHolder{
