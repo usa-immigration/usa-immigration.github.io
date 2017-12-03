@@ -48,6 +48,10 @@ header .nav-menu li:hover{
    background-color:#A5243D;
   
 }
+header .nav-menu li:hover a{
+   color:white;
+  
+}
 
 .testings {
   background-color:#A5243D;
