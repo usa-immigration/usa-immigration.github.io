@@ -26,8 +26,10 @@ $("#header").addClass("testings");
     
   });
   
-  
-  
+  $(".nav-menu li:hover a").hover(function(){
+    
+    $(this).css("color", "white");
+  });
   
  $("#header").load("header.html"); 
   $("footer").load("footer.html"); 
