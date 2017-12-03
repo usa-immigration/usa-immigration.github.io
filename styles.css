@@ -67,7 +67,7 @@ header .nav-menu li:hover a{
             margin-left:60%;
             text-align:center;
 			margin-top:-35px;
-			transform:translateY(-25%);
+			transform:translateY(25%);
 			
   		}
 
@@ -89,7 +89,7 @@ header .nav-menu li:hover a{
 			margin:5px;
 			font-size:1.3em;
 			display:inline;
-			font-family: 'Concert One', cursive;
+		//	font-family: 'Concert One', cursive;
  		}
 		 
 	 
