@@ -248,17 +248,34 @@ background-repeat:no-repeat;
  		}
 		.layer2{
 			
-			background-image:url(" https://cdn.glitch.com/f8999830-3615-4979-987a-740d649f07ee%2Fjerryaden.jpg?1509908703869");
+			background-image:url("http://cdn.cnn.com/cnnnext/dam/assets/170214001208-protesters-immigration-ban-0129-full-169.jpg");
 			animation:layer2Anim 10s infinite;
 		}
 		
 		.layer3{
-			
-			background-image:url("http://www.intergate-immigration.com/blog/wp-content/uploads/2016/01/Learn-more-about-South-Africa-immigration.jpg");
+			background-image:url("https://fthmb.tqn.com/2nTQ9KZR9DwTtMRfQ0xWRhO-JMo=/5576x3567/filters:no_upscale():fill(FFCC00,1)/GettyImages-182787573-58934aec5f9b5874eebc02fb.jpg");
 			animation:layer3Anim 10s infinite;
+		}
 
+		.layer4{
+			background-image:url("http://c8.alamy.com/comp/EDW3GC/chicago-illinois-lower-west-side-west-18th-street-mural-political-EDW3GC.jpg");
+			animation:layer3Anim 10s infinite;
+		}
+
+		.layer5{
+			background-image:url("https://img.apmcdn.org/bb9a7b2b0f5a6af9f1a696ef58a11084a4070e3b/uncropped/464a6d-20171024-stcloudrefugees.jpg");
+			animation:layer3Anim 10s infinite;
+		}
+
+		.layer6{
+			background-image:url("http://mediad.publicbroadcasting.net/p/michigan/files/styles/x_large/public/201701/P1260331.JPG");
+			animation:layer3Anim 10s infinite;
 		}
 		
+		.layer7{
+			background-image:url("https://bloximages.newyork1.vip.townnews.com/laloyolan.com/content/tncms/assets/v3/editorial/e/53/e53a544a-2a4c-11e7-a779-9fdbb8ce360a/5900447868e9e.image.jpg?resize=1200%2C800");
+			animation:layer3Anim 10s infinite;
+		}
 		
 		@keyframes layer2Anim{
 			
